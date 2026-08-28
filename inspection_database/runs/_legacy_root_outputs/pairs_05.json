@@ -1,0 +1,672 @@
+[
+  {
+    "sampled_id": 1,
+    "target_id": 1023,
+    "parity": "L",
+    "translation_m": 0.029476891547425783,
+    "rotation_deg": 1.7607644679283678,
+    "cost": 0.11751511494384417,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/1.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1023.jpg"
+  },
+  {
+    "sampled_id": 143,
+    "target_id": 1053,
+    "parity": "L",
+    "translation_m": 0.11602537890687188,
+    "rotation_deg": 11.658366933730248,
+    "cost": 0.6989437255933844,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/143.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1053.jpg"
+  },
+  {
+    "sampled_id": 159,
+    "target_id": 1069,
+    "parity": "L",
+    "translation_m": 0.14280667536442684,
+    "rotation_deg": 11.896931405281146,
+    "cost": 0.7376532456284841,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/159.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1069.jpg"
+  },
+  {
+    "sampled_id": 195,
+    "target_id": 1093,
+    "parity": "L",
+    "translation_m": 0.658294853255535,
+    "rotation_deg": 10.001596897112574,
+    "cost": 1.1583746981111638,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/195.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1093.jpg"
+  },
+  {
+    "sampled_id": 205,
+    "target_id": 1099,
+    "parity": "L",
+    "translation_m": 0.6311098257293708,
+    "rotation_deg": 1.3447824046394898,
+    "cost": 0.6983489459613453,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/205.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1099.jpg"
+  },
+  {
+    "sampled_id": 215,
+    "target_id": 1105,
+    "parity": "L",
+    "translation_m": 0.5963027228326504,
+    "rotation_deg": 3.7935969726667165,
+    "cost": 0.7859825714659863,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/215.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1105.jpg"
+  },
+  {
+    "sampled_id": 219,
+    "target_id": 1117,
+    "parity": "L",
+    "translation_m": 0.5427197708010417,
+    "rotation_deg": 4.770350444414152,
+    "cost": 0.7812372930217494,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/219.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1117.jpg"
+  },
+  {
+    "sampled_id": 225,
+    "target_id": 1135,
+    "parity": "L",
+    "translation_m": 0.47242214753170403,
+    "rotation_deg": 4.927558158620057,
+    "cost": 0.7188000554627069,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/225.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1135.jpg"
+  },
+  {
+    "sampled_id": 233,
+    "target_id": 1143,
+    "parity": "L",
+    "translation_m": 0.4117375038444706,
+    "rotation_deg": 4.960783401679869,
+    "cost": 0.6597766739284641,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/233.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1143.jpg"
+  },
+  {
+    "sampled_id": 251,
+    "target_id": 1149,
+    "parity": "L",
+    "translation_m": 0.3554123654822819,
+    "rotation_deg": 4.4652738649276085,
+    "cost": 0.5786760587286623,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/251.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1149.jpg"
+  },
+  {
+    "sampled_id": 255,
+    "target_id": 1157,
+    "parity": "L",
+    "translation_m": 0.3261479773526,
+    "rotation_deg": 4.4793383240811195,
+    "cost": 0.550114893556656,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/255.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1157.jpg"
+  },
+  {
+    "sampled_id": 263,
+    "target_id": 1167,
+    "parity": "L",
+    "translation_m": 0.31841594523809624,
+    "rotation_deg": 4.058524311441651,
+    "cost": 0.5213421608101788,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/263.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1167.jpg"
+  },
+  {
+    "sampled_id": 269,
+    "target_id": 1175,
+    "parity": "L",
+    "translation_m": 0.24231767782972244,
+    "rotation_deg": 4.2923211281866775,
+    "cost": 0.45693373423905637,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/269.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1175.jpg"
+  },
+  {
+    "sampled_id": 273,
+    "target_id": 1191,
+    "parity": "L",
+    "translation_m": 0.18437387720200324,
+    "rotation_deg": 3.7006349906431337,
+    "cost": 0.36940562673415994,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/273.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1191.jpg"
+  },
+  {
+    "sampled_id": 323,
+    "target_id": 1255,
+    "parity": "L",
+    "translation_m": 0.9544352751165499,
+    "rotation_deg": 8.727544145449576,
+    "cost": 1.3908124823890287,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/323.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1255.jpg"
+  },
+  {
+    "sampled_id": 335,
+    "target_id": 1259,
+    "parity": "L",
+    "translation_m": 0.9755378569623707,
+    "rotation_deg": 8.735677817814326,
+    "cost": 1.412321747853087,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/335.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1259.jpg"
+  },
+  {
+    "sampled_id": 343,
+    "target_id": 1267,
+    "parity": "L",
+    "translation_m": 1.105081803160016,
+    "rotation_deg": 8.779352098276574,
+    "cost": 1.5440494080738447,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/343.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1267.jpg"
+  },
+  {
+    "sampled_id": 361,
+    "target_id": 1281,
+    "parity": "L",
+    "translation_m": 1.2823215442842695,
+    "rotation_deg": 1.9429121348082077,
+    "cost": 1.3794671510246799,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/361.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1281.jpg"
+  },
+  {
+    "sampled_id": 367,
+    "target_id": 1287,
+    "parity": "L",
+    "translation_m": 1.2069388606508669,
+    "rotation_deg": 1.5743875921493555,
+    "cost": 1.2856582402583348,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/367.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1287.jpg"
+  },
+  {
+    "sampled_id": 373,
+    "target_id": 1305,
+    "parity": "L",
+    "translation_m": 1.2074642075504765,
+    "rotation_deg": 2.0412254275579023,
+    "cost": 1.3095254789283715,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/373.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1305.jpg"
+  },
+  {
+    "sampled_id": 379,
+    "target_id": 1311,
+    "parity": "L",
+    "translation_m": 1.1949069904667096,
+    "rotation_deg": 3.506239201743265,
+    "cost": 1.3702189505538729,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/379.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1311.jpg"
+  },
+  {
+    "sampled_id": 385,
+    "target_id": 1331,
+    "parity": "L",
+    "translation_m": 0.44672396554798155,
+    "rotation_deg": 8.168202299558185,
+    "cost": 0.8551340805258909,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/385.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1331.jpg"
+  },
+  {
+    "sampled_id": 391,
+    "target_id": 1341,
+    "parity": "L",
+    "translation_m": 0.4606233219021714,
+    "rotation_deg": 3.6060220599853885,
+    "cost": 0.6409244249014409,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/391.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1341.jpg"
+  },
+  {
+    "sampled_id": 395,
+    "target_id": 1377,
+    "parity": "L",
+    "translation_m": 0.5085238660099216,
+    "rotation_deg": 5.81235030623207,
+    "cost": 0.7991413813215251,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/395.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1377.jpg"
+  },
+  {
+    "sampled_id": 403,
+    "target_id": 1379,
+    "parity": "L",
+    "translation_m": 0.5085456505443456,
+    "rotation_deg": 9.510706593767253,
+    "cost": 0.9840809802327083,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/403.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1379.jpg"
+  },
+  {
+    "sampled_id": 409,
+    "target_id": 1395,
+    "parity": "L",
+    "translation_m": 1.1061970359036228,
+    "rotation_deg": 6.447439525637673,
+    "cost": 1.4285690121855066,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/409.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1395.jpg"
+  },
+  {
+    "sampled_id": 439,
+    "target_id": 1397,
+    "parity": "L",
+    "translation_m": 1.238279167944913,
+    "rotation_deg": 2.2797882095904267,
+    "cost": 1.3522685784244344,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/439.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1397.jpg"
+  },
+  {
+    "sampled_id": 447,
+    "target_id": 1415,
+    "parity": "L",
+    "translation_m": 1.2808293049539767,
+    "rotation_deg": 2.9181901666760766,
+    "cost": 1.4267388132877805,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/447.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1415.jpg"
+  },
+  {
+    "sampled_id": 457,
+    "target_id": 1417,
+    "parity": "L",
+    "translation_m": 1.249589621794614,
+    "rotation_deg": 1.732018290266872,
+    "cost": 1.3361905363079576,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/457.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1417.jpg"
+  },
+  {
+    "sampled_id": 461,
+    "target_id": 1439,
+    "parity": "L",
+    "translation_m": 1.171222466483979,
+    "rotation_deg": 5.7809461388226975,
+    "cost": 1.460269773425114,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/461.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1439.jpg"
+  },
+  {
+    "sampled_id": 463,
+    "target_id": 1441,
+    "parity": "L",
+    "translation_m": 1.2530074797336055,
+    "rotation_deg": 6.327321519625486,
+    "cost": 1.5693735557148798,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/463.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1441.jpg"
+  },
+  {
+    "sampled_id": 477,
+    "target_id": 1449,
+    "parity": "L",
+    "translation_m": 1.4990276275212933,
+    "rotation_deg": 10.13462047447529,
+    "cost": 2.0057586512450576,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/477.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1449.jpg"
+  },
+  {
+    "sampled_id": 541,
+    "target_id": 1495,
+    "parity": "L",
+    "translation_m": 1.4665842636965551,
+    "rotation_deg": 5.015149798476656,
+    "cost": 1.717341753620388,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/541.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1495.jpg"
+  },
+  {
+    "sampled_id": 557,
+    "target_id": 1503,
+    "parity": "L",
+    "translation_m": 1.4427482931863462,
+    "rotation_deg": 4.035814537023918,
+    "cost": 1.6445390200375423,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/557.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1503.jpg"
+  },
+  {
+    "sampled_id": 563,
+    "target_id": 1501,
+    "parity": "L",
+    "translation_m": 0.45654275139859696,
+    "rotation_deg": 7.125827163561993,
+    "cost": 0.8128341095766967,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/563.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1501.jpg"
+  },
+  {
+    "sampled_id": 615,
+    "target_id": 1537,
+    "parity": "L",
+    "translation_m": 1.300526141626063,
+    "rotation_deg": 2.1754066033430055,
+    "cost": 1.4092964717932133,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/615.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1537.jpg"
+  },
+  {
+    "sampled_id": 657,
+    "target_id": 1585,
+    "parity": "L",
+    "translation_m": 1.0590470452164857,
+    "rotation_deg": 3.1491735905187843,
+    "cost": 1.216505724742425,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/657.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1585.jpg"
+  },
+  {
+    "sampled_id": 661,
+    "target_id": 1587,
+    "parity": "L",
+    "translation_m": 1.151033701641519,
+    "rotation_deg": 3.7303262544664024,
+    "cost": 1.3375500143648393,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/661.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1587.jpg"
+  },
+  {
+    "sampled_id": 701,
+    "target_id": 1605,
+    "parity": "L",
+    "translation_m": 1.4893946763560477,
+    "rotation_deg": 4.165258889675572,
+    "cost": 1.6976576208398264,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/701.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1605.jpg"
+  },
+  {
+    "sampled_id": 709,
+    "target_id": 1609,
+    "parity": "L",
+    "translation_m": 1.3055156951553886,
+    "rotation_deg": 1.1491736565958535,
+    "cost": 1.3629743779851813,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/709.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1609.jpg"
+  },
+  {
+    "sampled_id": 713,
+    "target_id": 1615,
+    "parity": "L",
+    "translation_m": 1.348985645142728,
+    "rotation_deg": 4.384573582841037,
+    "cost": 1.56821432428478,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/713.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1615.jpg"
+  },
+  {
+    "sampled_id": 723,
+    "target_id": 1617,
+    "parity": "L",
+    "translation_m": 1.3837879753609437,
+    "rotation_deg": 10.467278662082649,
+    "cost": 1.907151908465076,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/723.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1617.jpg"
+  },
+  {
+    "sampled_id": 731,
+    "target_id": 1621,
+    "parity": "L",
+    "translation_m": 1.2993391645691112,
+    "rotation_deg": 10.724599032242232,
+    "cost": 1.8355691161812229,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/731.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1621.jpg"
+  },
+  {
+    "sampled_id": 733,
+    "target_id": 1627,
+    "parity": "L",
+    "translation_m": 1.4266473189566633,
+    "rotation_deg": 1.9874693480213697,
+    "cost": 1.5260207863577318,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/733.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1627.jpg"
+  },
+  {
+    "sampled_id": 739,
+    "target_id": 1633,
+    "parity": "L",
+    "translation_m": 1.125397529824365,
+    "rotation_deg": 6.345055661160455,
+    "cost": 1.4426503128823878,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/739.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1633.jpg"
+  },
+  {
+    "sampled_id": 747,
+    "target_id": 1635,
+    "parity": "L",
+    "translation_m": 1.293471039499354,
+    "rotation_deg": 9.136248804713542,
+    "cost": 1.7502834797350313,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/747.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1635.jpg"
+  },
+  {
+    "sampled_id": 751,
+    "target_id": 1641,
+    "parity": "L",
+    "translation_m": 1.3185155325494358,
+    "rotation_deg": 4.531571829251917,
+    "cost": 1.5450941240120317,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/751.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1641.jpg"
+  },
+  {
+    "sampled_id": 755,
+    "target_id": 1643,
+    "parity": "L",
+    "translation_m": 1.37308968022166,
+    "rotation_deg": 6.2156730732439565,
+    "cost": 1.6838733338838576,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/755.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1643.jpg"
+  },
+  {
+    "sampled_id": 757,
+    "target_id": 1647,
+    "parity": "L",
+    "translation_m": 1.2484437567422604,
+    "rotation_deg": 2.2807365642149726,
+    "cost": 1.362480584953009,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/757.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1647.jpg"
+  },
+  {
+    "sampled_id": 763,
+    "target_id": 1649,
+    "parity": "L",
+    "translation_m": 1.2603659764493398,
+    "rotation_deg": 10.372108343323866,
+    "cost": 1.7789713936155331,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/763.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1649.jpg"
+  },
+  {
+    "sampled_id": 771,
+    "target_id": 1655,
+    "parity": "L",
+    "translation_m": 1.478214815613036,
+    "rotation_deg": 0.5339799083093612,
+    "cost": 1.504913811028504,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/771.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1655.jpg"
+  },
+  {
+    "sampled_id": 785,
+    "target_id": 1665,
+    "parity": "L",
+    "translation_m": 0.42159354615700484,
+    "rotation_deg": 2.597553318854627,
+    "cost": 0.5514712120997363,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/785.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1665.jpg"
+  },
+  {
+    "sampled_id": 789,
+    "target_id": 1667,
+    "parity": "L",
+    "translation_m": 0.8849010764540367,
+    "rotation_deg": 1.7372711060779278,
+    "cost": 0.9717646317579332,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/789.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1667.jpg"
+  },
+  {
+    "sampled_id": 807,
+    "target_id": 1681,
+    "parity": "L",
+    "translation_m": 0.8812857404205793,
+    "rotation_deg": 2.041063931794645,
+    "cost": 0.9833389370103115,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/807.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1681.jpg"
+  },
+  {
+    "sampled_id": 809,
+    "target_id": 1701,
+    "parity": "L",
+    "translation_m": 0.856506949458202,
+    "rotation_deg": 1.142048776152077,
+    "cost": 0.9136093882658058,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/809.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1701.jpg"
+  },
+  {
+    "sampled_id": 819,
+    "target_id": 1715,
+    "parity": "L",
+    "translation_m": 0.8418463975028888,
+    "rotation_deg": 2.0603116380994795,
+    "cost": 0.9448619794078628,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/819.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1715.jpg"
+  },
+  {
+    "sampled_id": 825,
+    "target_id": 1717,
+    "parity": "L",
+    "translation_m": 0.8984178946520578,
+    "rotation_deg": 2.603543830486842,
+    "cost": 1.0285950861764,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/825.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1717.jpg"
+  },
+  {
+    "sampled_id": 829,
+    "target_id": 1723,
+    "parity": "L",
+    "translation_m": 0.8887832501664007,
+    "rotation_deg": 1.9772256880502639,
+    "cost": 0.9876445345689139,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/829.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1723.jpg"
+  },
+  {
+    "sampled_id": 837,
+    "target_id": 1729,
+    "parity": "L",
+    "translation_m": 0.9662264832938077,
+    "rotation_deg": 2.6915941478043197,
+    "cost": 1.1008061906840236,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/837.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1729.jpg"
+  },
+  {
+    "sampled_id": 845,
+    "target_id": 1731,
+    "parity": "L",
+    "translation_m": 0.9413290954174341,
+    "rotation_deg": 3.6474892539342605,
+    "cost": 1.1237035581141472,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/845.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1731.jpg"
+  },
+  {
+    "sampled_id": 853,
+    "target_id": 1735,
+    "parity": "L",
+    "translation_m": 1.0466949018415928,
+    "rotation_deg": 4.604166794209649,
+    "cost": 1.2769032415520751,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/853.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1735.jpg"
+  },
+  {
+    "sampled_id": 865,
+    "target_id": 1741,
+    "parity": "L",
+    "translation_m": 1.1596170495955567,
+    "rotation_deg": 3.1621522462303973,
+    "cost": 1.3177246619070766,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/865.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1741.jpg"
+  },
+  {
+    "sampled_id": 869,
+    "target_id": 1749,
+    "parity": "L",
+    "translation_m": 1.1886078338985444,
+    "rotation_deg": 4.271392193493534,
+    "cost": 1.402177443573221,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/869.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1749.jpg"
+  },
+  {
+    "sampled_id": 877,
+    "target_id": 1755,
+    "parity": "L",
+    "translation_m": 0.9511104742022901,
+    "rotation_deg": 8.110942448927611,
+    "cost": 1.3566575966486707,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/877.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1755.jpg"
+  },
+  {
+    "sampled_id": 883,
+    "target_id": 1759,
+    "parity": "L",
+    "translation_m": 0.9536362389923749,
+    "rotation_deg": 8.184157063317814,
+    "cost": 1.3628440921582656,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/883.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1759.jpg"
+  },
+  {
+    "sampled_id": 887,
+    "target_id": 1761,
+    "parity": "L",
+    "translation_m": 0.9113326040195089,
+    "rotation_deg": 2.1613131917751303,
+    "cost": 1.0193982636082655,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/887.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1761.jpg"
+  },
+  {
+    "sampled_id": 891,
+    "target_id": 1767,
+    "parity": "L",
+    "translation_m": 0.7759856087811432,
+    "rotation_deg": 5.810203552999209,
+    "cost": 1.0664957864311035,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/sampled_images/891.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/MTR Inspection Database/outputs/images/1767.jpg"
+  }
+]

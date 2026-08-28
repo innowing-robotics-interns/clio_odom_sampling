@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Sample images along the inspection-1 trajectory at a fixed distance interval.
 
-Inspection 1 lives in the shared ``camera_init`` (FastLIO) global frame; each
-left/right capture pair shares an identical pose, so the trajectory of distinct
-viewpoints is the sequence of unique poses ordered by capture id.
+Inspection 1 lives in the shared ``camera_init`` (FastLIO) global frame. Each
+left/right capture pair shares an identical ``timestamp_ns``; left and right
+ids are no longer assumed to be consecutive (id +/- 1), so pairs are matched by
+timestamp. The trajectory of distinct viewpoints is the sequence of unique
+timestamps ordered by capture id.
 
 This script walks that trajectory in capture order and greedily picks a
 viewpoint whenever the cumulative arc-length (sum of consecutive Euclidean
@@ -13,10 +15,13 @@ The LEFT image of each picked pair (the lower capture id, see
 ``<id>.jpg`` - the exact layout ``match_images_by_pose.py`` consumes as its
 source set.
 
+``--image-dir`` is optional. If omitted, the script only computes the sampled
+set (and optionally writes ``--json`` / commits to the db) without copying any
+files, so it can be run with just a ``.db`` file.
+
 Run with the backend venv::
 
-    python backend/scripts/sample_images_along_trajectory.py \
-        --inspection 1 --interval-m 1.0 --out-dir "MTR Inspection Database/sampled_images"
+    python sample_images_along_trajectory.py --inspection 1 --interval-m 1.0 --out-dir "MTR Inspection Database/sampled_images" --json waypoints_adjusted_format.json"
 
 A ``--json`` file listing the picked ids and arc-length positions is also
 written for diagnostics / reproducibility.
@@ -33,9 +38,8 @@ import sys
 from pathlib import Path
 from typing import Any
 
-_REPO_ROOT = Path(__file__).resolve().parents[1]
-_DEFAULT_DB = _REPO_ROOT / "inspection_database" / "complete3" / "inspection_v2.db"
-_DEFAULT_IMAGE_DIR = _REPO_ROOT / "inspection_database" / "complete3" / "outputs" / "images"
+_REPO_ROOT = Path(__file__).resolve().parents[1] / "image_selection"
+_DEFAULT_DB = _REPO_ROOT / "inspection_database" / "inspection_v2.db"
 _DEFAULT_OUT_DIR = _REPO_ROOT / "inspection_database" / "sampled_images"
 
 
@@ -106,11 +110,13 @@ def _load_pairs(
 ) -> tuple[list[dict[str, Any]], list[int]]:
     """Distinct pose viewpoints of one inspection, ordered by capture id.
 
-    Consecutive captures with identical (translation, quaternion, timestamp)
-    form one L/R pair sharing one pose. Returns ``(views, unpaired_ids)``:
-    each view has ``left_id`` (lower id = LEFT), ``right_id`` (higher id, or
-    None if the pair was dropped), and the pose fields. Unpaired singletons
- 122.78 deg,   are reported separately and excluded from sampling.
+    Left and right captures are paired by sharing an identical
+    ``timestamp_ns`` (they are no longer assumed to be consecutive ids). Each
+    unique timestamp forms one viewpoint; within a timestamp group the lower id
+    is treated as LEFT and the higher id as RIGHT. Returns ``(views,
+    unpaired_ids)``: each view has ``left_id``, ``right_id`` (or None if the
+    pair was dropped), and the pose fields (taken from the LEFT member).
+    Unpaired singletons are reported separately and excluded from sampling.
     """
     raw = conn.execute(
         """
@@ -121,32 +127,27 @@ def _load_pairs(
          FROM images
          WHERE inspection_id = ? AND tf_translation_x IS NOT NULL
                                    AND tf_rotation_w IS NOT NULL
-        ORDER BY id
-        """,
+         ORDER BY id
+         """,
         (inspection_id,),
     ).fetchall()
 
-    groups: dict[tuple, list[dict[str, Any]]] = {}
+    groups: dict[int, list[dict[str, Any]]] = {}
     for r in raw:
-        key = (
-            round(r["tx"], 4), round(r["ty"], 4), round(r["tz"], 4),
-            round(r["rx"], 6), round(r["ry"], 6),
-            round(r["rz"], 6), round(r["rw"], 6),
-            r["timestamp_ns"],
-        )
-        groups.setdefault(key, []).append(dict(r))
+        groups.setdefault(r["timestamp_ns"], []).append(dict(r))
 
     views: list[dict[str, Any]] = []
     unpaired: list[int] = []
-    for key, grp in groups.items():
+    for ts, grp in groups.items():
         grp.sort(key=lambda d: d["id"])
+        if len(grp) < 2:
+            unpaired.append(grp[0]["id"])
+            continue
         v = dict(grp[0])
         v["left_id"] = grp[0]["id"]
-        v["right_id"] = grp[1]["id"] if len(grp) >= 2 else None
-        if len(grp) == 1:
-            unpaired.append(grp[0]["id"])
-        elif len(grp) > 2:
-            print(f"[warn] inspection {inspection_id}: pose group {key} has "
+        v["right_id"] = grp[1]["id"]
+        if len(grp) > 2:
+            print(f"[warn] inspection {inspection_id}: timestamp {ts} has "
                   f"{len(grp)} images (ids {[g['id'] for g in grp]}); "
                   f"using first two as L/R.", file=sys.stderr)
         views.append(v)
@@ -206,8 +207,9 @@ def main(argv: list[str] | None = None) -> int:
                    help="Index (in capture order) of the first viewpoint to pick from (default 0)")
     p.add_argument("--lens", choices=["left", "right", "both"], default="left",
                    help="Which lens of each L/R pair to copy: left (default), right, or both")
-    p.add_argument("--image-dir", default=str(_DEFAULT_IMAGE_DIR),
-                   help="Source image folder containing <id>.jpg for all images")
+    p.add_argument("--image-dir", default=None,
+                   help="Source image folder containing <id>.jpg for all images "
+                        "(optional; if omitted, only sampling/DB work is done)")
     p.add_argument("--out-dir", default=str(_DEFAULT_OUT_DIR),
                    help="Destination folder; <id>.jpg files are written here (cleared first by default)")
     p.add_argument("--keep-existing", action="store_true",
@@ -277,21 +279,28 @@ def main(argv: list[str] | None = None) -> int:
                   f"med={sorted(gaps)[len(gaps)//2]:.3f} max={max(gaps):.3f}")
 
         if args.json_path:
-            payload = [
-                {
-                    "id": v["left_id"],
-                    "left_id": v["left_id"],
-                    "right_id": v["right_id"],
-                    "arclength_m": round(v["arclength"], 4),
-                    "tx": v["tx"], "ty": v["ty"], "tz": v["tz"],
-                }
-                for v in picked
-            ]
+            payload = {
+                "waypoints": [
+                    {
+                        "id": v["left_id"],
+                        "left_id": v["left_id"],
+                        "right_id": v["right_id"],
+                        "timestamp_ns": v["timestamp_ns"],
+                        "arclength_m": round(v["arclength"], 4),
+                        "tx": v["tx"], "ty": v["ty"], "tz": v["tz"],
+                    }
+                    for v in picked
+                ],
+                "annotated_timestamps": [v["timestamp_ns"] for v in picked],
+            }
             Path(args.json_path).write_text(json.dumps(payload, indent=2))
-            print(f"[info] wrote {len(payload)} sampled viewpoint(s) to {args.json_path}")
+            print(f"[info] wrote {len(payload['waypoints'])} sampled viewpoint(s) to {args.json_path}")
 
-        if args.no_copy:
-            print("[info] --no-copy: skipping file copy")
+        if args.no_copy or args.image_dir is None:
+            if args.no_copy:
+                print("[info] --no-copy: skipping file copy")
+            else:
+                print("[info] no --image-dir given: skipping file copy")
         else:
             image_dir = Path(args.image_dir)
             out_dir = Path(args.out_dir)

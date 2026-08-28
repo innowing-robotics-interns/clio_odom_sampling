@@ -1,0 +1,202 @@
+[
+  {
+    "sampled_id": 1,
+    "target_id": 1925,
+    "parity": "L",
+    "translation_m": 0.013358229818062997,
+    "rotation_deg": 0.8968409512632035,
+    "cost": 0.10304232494438335,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/1.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/1925.jpg"
+  },
+  {
+    "sampled_id": 2,
+    "target_id": 1926,
+    "parity": "R",
+    "translation_m": 0.013358229818062997,
+    "rotation_deg": 0.8968409512632035,
+    "cost": 0.10304232494438335,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/2.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/1926.jpg"
+  },
+  {
+    "sampled_id": 165,
+    "target_id": 2007,
+    "parity": "L",
+    "translation_m": 0.13816749937714135,
+    "rotation_deg": 2.1333600402421222,
+    "cost": 0.3515035034013536,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/165.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2007.jpg"
+  },
+  {
+    "sampled_id": 166,
+    "target_id": 2008,
+    "parity": "R",
+    "translation_m": 0.13816749937714135,
+    "rotation_deg": 2.1333600402421222,
+    "cost": 0.3515035034013536,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/166.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2008.jpg"
+  },
+  {
+    "sampled_id": 183,
+    "target_id": 2035,
+    "parity": "L",
+    "translation_m": 0.19701385930746407,
+    "rotation_deg": 6.594277001449325,
+    "cost": 0.8564415594523966,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/183.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2035.jpg"
+  },
+  {
+    "sampled_id": 184,
+    "target_id": 2036,
+    "parity": "R",
+    "translation_m": 0.19701385930746407,
+    "rotation_deg": 6.594277001449325,
+    "cost": 0.8564415594523966,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/184.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2036.jpg"
+  },
+  {
+    "sampled_id": 207,
+    "target_id": 2057,
+    "parity": "L",
+    "translation_m": 0.2366961524464404,
+    "rotation_deg": 7.546530696342158,
+    "cost": 0.9913492220806562,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/207.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2057.jpg"
+  },
+  {
+    "sampled_id": 208,
+    "target_id": 2058,
+    "parity": "R",
+    "translation_m": 0.2366961524464404,
+    "rotation_deg": 7.546530696342158,
+    "cost": 0.9913492220806562,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/208.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2058.jpg"
+  },
+  {
+    "sampled_id": 221,
+    "target_id": 2073,
+    "parity": "L",
+    "translation_m": 0.09053235606771125,
+    "rotation_deg": 2.1194410576736384,
+    "cost": 0.3024764618350751,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/221.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2073.jpg"
+  },
+  {
+    "sampled_id": 222,
+    "target_id": 2074,
+    "parity": "R",
+    "translation_m": 0.09053235606771125,
+    "rotation_deg": 2.1194410576736384,
+    "cost": 0.3024764618350751,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/222.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2074.jpg"
+  },
+  {
+    "sampled_id": 237,
+    "target_id": 2093,
+    "parity": "L",
+    "translation_m": 0.12002108948814742,
+    "rotation_deg": 5.849513200835288,
+    "cost": 0.7049724095716762,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/237.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2093.jpg"
+  },
+  {
+    "sampled_id": 238,
+    "target_id": 2094,
+    "parity": "R",
+    "translation_m": 0.12002108948814742,
+    "rotation_deg": 5.849513200835288,
+    "cost": 0.7049724095716762,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/238.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2094.jpg"
+  },
+  {
+    "sampled_id": 257,
+    "target_id": 2115,
+    "parity": "L",
+    "translation_m": 0.24733596734159904,
+    "rotation_deg": 6.277658422476736,
+    "cost": 0.8751018095892726,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/257.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2115.jpg"
+  },
+  {
+    "sampled_id": 258,
+    "target_id": 2116,
+    "parity": "R",
+    "translation_m": 0.24733596734159904,
+    "rotation_deg": 6.277658422476736,
+    "cost": 0.8751018095892726,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/258.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2116.jpg"
+  },
+  {
+    "sampled_id": 305,
+    "target_id": 2181,
+    "parity": "L",
+    "translation_m": 0.29476359068238556,
+    "rotation_deg": 5.810124696192227,
+    "cost": 0.8757760603016083,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/305.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2181.jpg"
+  },
+  {
+    "sampled_id": 306,
+    "target_id": 2182,
+    "parity": "R",
+    "translation_m": 0.29476359068238556,
+    "rotation_deg": 5.810124696192227,
+    "cost": 0.8757760603016083,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/306.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2182.jpg"
+  },
+  {
+    "sampled_id": 865,
+    "target_id": 2703,
+    "parity": "L",
+    "translation_m": 0.2937273097262372,
+    "rotation_deg": 3.335917261506012,
+    "cost": 0.6273190358768383,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/865.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2703.jpg"
+  },
+  {
+    "sampled_id": 866,
+    "target_id": 2704,
+    "parity": "R",
+    "translation_m": 0.2937273097262372,
+    "rotation_deg": 3.335917261506012,
+    "cost": 0.6273190358768383,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/866.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2704.jpg"
+  },
+  {
+    "sampled_id": 871,
+    "target_id": 2711,
+    "parity": "L",
+    "translation_m": 0.18729307502400716,
+    "rotation_deg": 5.957888394966183,
+    "cost": 0.7830819145206255,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/871.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2711.jpg"
+  },
+  {
+    "sampled_id": 872,
+    "target_id": 2712,
+    "parity": "R",
+    "translation_m": 0.18729307502400716,
+    "rotation_deg": 5.957888394966183,
+    "cost": 0.7830819145206255,
+    "sampled_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/sampled_images/872.jpg",
+    "target_file": "/home/wangyiming/code/local-voice-chatbot/inspection_database/outputs/images/2712.jpg"
+  }
+]
