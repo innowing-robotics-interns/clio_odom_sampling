@@ -1,0 +1,1 @@
+python src/image_selection/sample_images_along_trajectory.py --interval-m 1.0 --db src/navigation/inspection_planner_test/databases/mtr_inspection.db --commit-gt --no-skip-existing-gt --no-copy --inspection 1
